@@ -1,220 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-header {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin: auto;
-    max-width: 100%;
-    background: #008000;
-    padding: 10px 0px;
-    position: sticky;
-    top: 0px;
-    left: 0px;
-    z-index: 10;
-    overflow: hidden;
-}
-
-header::after {
-    content: "";
-    position: absolute;
-    right: 0px;
-    top: -123px;
-    width: 88%;
-    height: 100%;
-    border-style: solid;
-    border-color: transparent transparent transparent #cd1818;
-    border-width: 16px 146px 111px 101px;
-    z-index: -1;
-}
-
-header::before {
-    content: "";
-    position: absolute;
-    right: 0px;
-    bottom: -91px;
-    width: 88%;
-    height: 100%;
-    border-style: solid;
-    border-color: #97121200 #cd1818 #691d1d00 transparent;
-    border-width: 80px 71px 1px 66px;
-    z-index: -1;
-}
-
-header .logo {
-    flex-basis: 30%;
-    text-align: center;
-}
-
-header .logo img {
-    max-width: 100px;
-    margin-left: 20px;
-}
-
-header nav {
-    flex-basis: 70%;
-}
-
-header nav ul {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    list-style: none;
-    height: 100%;
-    margin-left: 40%;
-}
-
-header nav ul li {
-    margin-right: 20px;
-}
-
-header nav ul li a {
-    display: inline-block;
-    text-decoration: none;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: rgb(255, 255, 255);
-}
-
-.wrapper h1 {
-    text-align: center;
-    font-size: 50px;
-    color: rgb(255, 77, 77);
-    background: rgb(61, 61, 61);
-    padding: 15px;
-}
-
-.team-members {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
-.team_box {
-    flex-basis: 23.53%;
-    text-align: center;
-    padding: 0px 10px 10px;
-    border: 1px solid rgb(221, 221, 221);
-    margin-right: 23px;
-    margin-bottom: 23px;
-    background: rgb(255 255 255);
-    box-shadow: rgb(243, 237, 235) 0px 0px 10px 11px;
-    transition: all 0.5s ease 0s;
-    border-radius: 10px;
-    margin-top: 20px;
-}
-
-.team-members .team_box:nth-child(4n) {
-    margin-right: 0px !important;
-}
-
-.team-members .team_box:hover {
-    box-shadow: rgb(243, 237, 235) 0px 0px 10px 11px inset;
-    transform: translate(0px, 7px);
-}
-
-.dev_img {
-    height: 260px;
-    overflow: hidden;
-}
-
-.dev_img img {
-    width: 100%;
-    transition: all 0.5s ease 0s;
-    height: 100%;
-}
-
-.team-members .team_box:hover .dev_img img {
-    transform: skew(-10deg) scale(1.5);
-}
-
-.dev_title {
-    padding: 0px;
-    text-align: left;
-}
-
-.dev_title h3 {
-    background: green;
-    color: rgb(228, 225, 220);
-    padding: 10px;
-    text-transform: uppercase;
-}
-
-.dev_title b {
-    color: rgb(41 32 65);
-    text-transform: capitalize;
-}
-
-.dev_title p {
-    font-size: 20px;
-    margin: 5px 0px;
-}
-
-.dev_title span {}
-
-.dev_title h5 {}
-
-.wrapper {
-    max-width: 1230px;
-    margin: auto;
-    border: 1px solid rgb(221, 221, 221);
-    padding: 15px;
-}
-
-.wrapper h2 {
-    text-align: center;
-    background: green;
-    color: white;
-    padding: 10px;
-}
-
-.stu_table {
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-.tablestyle {
-    width: 100%;
-    border-collapse: collapse;
-    text-align: center;
-}
-
-.tablestyle th {
-    padding: 10px;
-    font-size: 25px;
-    color: rgb(3, 0, 0);
-}
-
-.tablestyle td {
-    color: rgb(19, 17, 17);
-    font-size: 20px;
-    font-weight: 600;
-}
-
-thead tr {
-    background: rgb(244, 193, 7);
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-tbody tr td:nth-child(3) {}
-
-tbody td img {
-    max-width: 90px;
-    max-height: 50px;
-}
-
-.tablestyle tbody tr:nth-child(2n+1) {}
-
-.tablestyle tbody tr:nth-child(2n) {
-    background: rgb(221, 221, 221);
-}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* { margin: 0px; padding: 0px; box-sizing: border-box; font-family: Poppins, sans-serif; }
+html { scroll-behavior: smooth; }
+header { display: flex; justify-content: space-evenly; flex-wrap: wrap; margin: auto; max-width: 100%; background: rgb(0, 128, 0); padding: 10px 0px; position: fixed; top: 0px; left: 0px; z-index: 10; overflow: hidden; width: 100%; }
+header::after { content: ""; position: absolute; right: 0px; top: -123px; width: 88%; height: 100%; border-style: solid; border-color: transparent transparent transparent rgb(205, 24, 24); border-width: 16px 146px 111px 101px; z-index: -1; }
+header::before { content: ""; position: absolute; right: 0px; bottom: -91px; width: 88%; height: 100%; border-style: solid; border-color: rgba(151, 18, 18, 0) rgb(205, 24, 24) rgba(105, 29, 29, 0) transparent; border-width: 80px 71px 1px 66px; z-index: -1; }
+header .logo { flex-basis: 30%; text-align: center; }
+header .logo img { max-width: 100px; margin-left: 20px; }
+header nav { flex-basis: 70%; }
+header nav ul {display: flex;justify-content: center;flex-wrap: wrap;align-items: center;list-style: none;height: 100%;margin-left: 43%;}
+header nav ul li { margin-right: 20px; }
+header nav ul li a { display: inline-block; text-decoration: none; font-size: 20px; text-transform: uppercase; color: rgb(255, 255, 255); }
+.wrapper h1 { text-align: center; font-size: 50px; color: rgb(255, 77, 77); background: rgb(61, 61, 61); padding: 15px; }
+.team-members { display: flex; flex-wrap: wrap; justify-content: flex-start; }
+.team_box {flex-basis: 23.53%;text-align: center;padding: 0px 0px 0px 0px;border: 1px solid rgb(221, 221, 221);margin-right: 23px;margin-bottom: 23px;background: rgb(255, 255, 255);box-shadow: rgb(243, 237, 235) 0px 0px 10px 11px;transition: all 0.5s ease 0s;border-radius: 10px;margin-top: 20px;}
+.team-members .team_box:nth-child(4n) { margin-right: 0px !important; }
+.team-members .team_box:hover { box-shadow: rgb(243, 237, 235) 0px 0px 10px 11px inset; transform: translate(0px, 7px); }
+.dev_img { height: 260px; overflow: hidden; }
+.dev_img img { width: 100%; transition: all 0.5s ease 0s; height: 100%; }
+.team-members .team_box:hover .dev_img img { transform: skew(-10deg) scale(1.5); }
+.dev_title {padding: 0px;text-align: left;}
+.dev_title h3 {font-weight: 400;background: green;color: rgb(254 254 254);padding: 10px;text-transform: uppercase;}
+.dev_title b { color: rgb(41, 32, 65); text-transform: capitalize; }
+.dev_title p {font-size: 15px;margin: 5px 0px;padding: 0 10px;}
+.dev_title span {padding: 0 10px;}
+.dev_title h5 { }
+.wrapper { max-width: 1230px; margin: 100px auto auto; border: 1px solid rgb(221, 221, 221); padding: 15px; }
+.wrapper h2 { text-align: center; background: green; color: white; padding: 10px; }
+.stu_table { margin-top: 20px; margin-bottom: 20px; }
+.tablestyle { width: 100%; border-collapse: collapse; text-align: center; }
+.tablestyle th { padding: 10px; font-size: 25px; color: rgb(3, 0, 0); }
+.tablestyle td { color: rgb(19, 17, 17); font-size: 20px; font-weight: 600; }
+thead tr { background: rgb(244, 193, 7); color: rgb(0, 0, 0); text-transform: uppercase; font-weight: 700; }
+tbody tr td:nth-child(3) { }
+tbody td img { max-width: 90px; max-height: 50px; }
+.tablestyle tbody tr:nth-child(2n+1) { }
+.tablestyle tbody tr:nth-child(2n) { background: rgb(221, 221, 221); }
