@@ -222,7 +222,7 @@ tbody td img {
     max-height: 50px;
 }
 
-.tablestyle tbody tr:nth-child(2n+1) {}
+
 
 .tablestyle tbody tr:nth-child(2n) {
     background: rgb(221, 221, 221);
