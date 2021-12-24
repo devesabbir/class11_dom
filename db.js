@@ -80,6 +80,15 @@ const devsData = [
         Descr:  'Lorem ipsum, dolor sit amet consectetur adipisicing elit.Harum,  fugit.',
         Photo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-mzdsW09n3bNcYaSxte8BpfWzhv8gcotz3g&usqp=CAU'
 
+      },{
+        id : 10,
+        Name : 'Siddique',
+        Age : 35,
+        Skill : 'MERN',
+        Location : 'Mirpur',
+        Descr:  'Lorem ipsum, dolor sit amet consectetur adipisicing elit.Harum,  fugit.',
+        Photo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-mzdsW09n3bNcYaSxte8BpfWzhv8gcotz3g&usqp=CAU'
+
       }
 ]
 
