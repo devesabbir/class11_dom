@@ -89,6 +89,15 @@ const devsData = [
         Descr:  'Lorem ipsum, dolor sit amet consectetur adipisicing elit.Harum,  fugit.',
         Photo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-mzdsW09n3bNcYaSxte8BpfWzhv8gcotz3g&usqp=CAU'
 
+      },{
+        id : 10,
+        Name : 'Siddique',
+        Age : 35,
+        Skill : 'MERN',
+        Location : 'Mirpur',
+        Descr:  'Lorem ipsum, dolor sit amet consectetur adipisicing elit.Harum,  fugit.',
+        Photo : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-mzdsW09n3bNcYaSxte8BpfWzhv8gcotz3g&usqp=CAU'
+
       }
 ]
 
@@ -150,7 +159,7 @@ const familyData = [
           {
             id : 1,
             Name : 'Sajid',
-            Relation: '',
+            Relation: 'Brother',
             Age :  23, 
             Photo:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw4-3jmtDCr_iaihO1Sq9TzzxApy5m_WsFJq8gSJwEqNS74VWPxZIZSoW87-JJyOLGQU8&usqp=CAU',
             Phone :'01744518886'
@@ -185,6 +194,16 @@ const familyData = [
           },
 
 ]
+
+
+const logo  = [
+  { 
+    logo : 'https://i.ibb.co/Zc9S0sr/lfwfacademy-logo-1.png'
+  }
+]
+    
+
+       
 
 
 

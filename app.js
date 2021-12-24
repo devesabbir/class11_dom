@@ -1,6 +1,8 @@
 const devs = document.querySelector('.team-members')
 const table = document.querySelector('#stu_table tbody')
 const fTable = document.querySelector('#family_table tbody')
+const logoset = document.querySelector('header .logo')
+
 
 for (let i = 0; i < devsData.length; i++) {
     
@@ -59,3 +61,14 @@ familyData.forEach((data,index) => {
     `
 
 })
+
+logo.map( data => {
+    logoset.innerHTML = `
+    <img src="${data.logo}" alt="MERN">
+`
+})
+      
+
+
+
+   
