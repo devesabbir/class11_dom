@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #ff4d4d;
+    background: #3d3d3d;
+    padding: 15px;
+}
+
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+
+.team_box {
+    flex-basis: 23.53%;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-right: 23px;
+    margin-bottom: 23px;
+    padding-top: 0;
+    background: #f6f5f2;
+    box-shadow: 0px 0px 10px 11px #f3edeb;
+    -webkit-transition: box-shadow 0.5s ease-in-out 0s;
+    -moz-transition: box-shadow 0.5s ease-in-out 0s;
+    transition: box-shadow 0.5s ease-in-out 0s;
+    transition: 0.5s;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+.team-members .team_box:nth-child(4n+0) {
+    margin-right: 0 !important;
+}
+
+.team-members .team_box:hover{
+    box-shadow: inset 0px 0px 10px 11px #f3edeb;
+    transform: translate(0px, 7px);
+}
+
+.dev_img {
+    height: 260px;
+    overflow: hidden;
+}
+
+.dev_img img {
+    width: 100%;
+    transition: .5s;
+    height: 100%;
+}
+
+.team-members .team_box:hover .dev_img img {
+  
+    transform: skew(-10deg) scale(1.5);
+}
+
+
+.dev_title {
+    padding: 0px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: left;
+}
+.dev_title h3 {
+    background: green;
+    color: #e4e1dc;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.dev_title b {
+    color: #0b051b;
+    text-transform: capitalize;
+}
+.dev_title p{font-size: 20px;margin: 5px 0;}
+.dev_title span{}
+.dev_title h5{}
+
+
+.wrapper {
+    max-width: 1230px;
+    margin: auto;
+    border: 1px solid #ddd;
+    padding: 15px 15px;
+}
+
+.wrapper h2 {
+    text-align: center;
+    background: green;
+    color: orange;
+    padding: 10px 10px;
+}
+
+.stu_table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ .tablestyle{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.tablestyle th {
+    padding: 10px;
+    font-size: 25px;
+    color: #030000;
+}
+
+.tablestyle td {
+    color: #131111;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+thead tr {
+    background: #f4c107;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+tbody tr td:nth-child(3){
+}
+tbody td img {
+    max-width: 90px;
+    max-height: 50px;
+}
+
+.tablestyle tbody tr:nth-child(odd) {}
+
+.tablestyle tbody tr:nth-child(even) {
+    background: #ddd;
+}
